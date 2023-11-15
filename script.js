@@ -15,3 +15,7 @@ function calculateCircumference(r){
 // Example Output:
 // console.log(searchString(“s”, “mississippi”)); // will output 4
 // console.log(searchString(“q”, “mississippi”)); // will output 0
+function searchString(x, y) {
+    let text = y;
+    return text.search(x)
+}
